@@ -1,0 +1,92 @@
+*{
+    margin: 0pc;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url(libary1.jpg);
+background-repeat: no-repeat;
+background-position: 100%;
+background-size:cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+h4{
+font-size: 2pc;
+padding: 2pc;
+
+}
+.bt1{
+margin-left: 20pc;
+font-size: 1pc;
+border-color: rgb(20, 22, 26);
+padding: 2pc;
+width: 15pc;
+border-radius: 2pc;
+background-color: black;
+color: aliceblue;
+font-size: 2pc;
+margin-top:1pc;
+}
+@media(width < 600px) {
+    .bt1{
+    margin:8pc;
+    
+}
+
+}
+
+.tank{
+
+color: white;
+background-color: rgb(51, 2, 58);
+margin-bottom:5pc;
+margin-top: 10pc;
+border-radius: 2pc;
+padding-left: 5pc;
+width: 40pc;
+margin-left: 15pc;
+}
+@media(width< 600px) {
+    .tank{
+width: 90vw;
+margin:5pc;
+padding-right: 3pc;
+padding-left: 0%;
+border:4pc;
+
+    }
+}
+
+
+.p{
+border: 1px solid white;
+height: 20pc;
+background-color: white;
+border-radius: 2pc;
+padding-top: 5pc;
+font-size: 2pc;
+background-color: rgb(6, 6, 37);
+color: white;
+width: 50pc;
+padding-left: 3pc;
+margin-left: 10pc;
+
+}
+
+@media(width<600px){
+.p{
+color: aqua;
+width: 90vw;
+margin:5pc;
+height:30pc;
+}
+
+
+
+}
+
+
